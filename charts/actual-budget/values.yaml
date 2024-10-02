@@ -21,4 +21,4 @@ actualserver:
               - name: {{ printf "%s-%s" .Release.Name "actualserver" }}
                 port: {{ .Values.service.main.ports.main.port }}
         tls:
-          secretName: k0s-system/traefik-tls
+          secretName: k0s-system/traefik-tl
