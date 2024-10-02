@@ -1,0 +1,24 @@
+actual:
+  hostName: budget.k8s.boa.lan
+  persistence:
+    server-files:
+      retain: true
+    user-files:
+      retain: true
+  extraTpl:
+    - |
+      apiVersion: traefik.io/v1alpha1
+      kind: IngressRoute
+      metadata:
+        name: {{ .Release.Name }}
+      spec:
+        entryPoints:
+          - websecure
+        routes:
+          - match: "Host(`{{ .Values.hostName }}`)"
+            kind: Rule
+            services:
+              - name: {{ printf "%s-%s" .Release.Name "actualserver" }}
+                port: {{ .Values.service.main.ports.main.port }}
+        tls:
+          secretName: k0s-system/traefik-tls
