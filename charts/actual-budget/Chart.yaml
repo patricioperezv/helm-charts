@@ -24,6 +24,6 @@ version: 0.1.0
 appVersion: "24.9.0"
 
 dependencies:
-  - name: actual
-    repository: oci://tccr.io/truecharts/actualserver
+  - name: actualserver
+    repository: oci://tccr.io/truecharts
     version: 12.5.2

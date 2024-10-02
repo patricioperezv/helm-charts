@@ -1,4 +1,4 @@
-actual:
+actualserver:
   hostName: budget.k8s.boa.lan
   persistence:
     server-files:
