@@ -35,6 +35,7 @@ jobs:
         shell: bash
         working-directory: src
         run: |
+          mkdir -p temp || true
           helm repo index ./temp --merge ../dest/index.yaml --url https://raw.githubusercontent.com/${{ github.repository }}/gh-pages/helm/
           mkdir -p ../dest/helm
           echo "Copying files..."
