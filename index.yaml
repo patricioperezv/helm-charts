@@ -15,4 +15,23 @@ entries:
     urls:
     - https://github.com/patricioperezv/helm-charts/releases/download/actual-budget-0.1.0/actual-budget-0.1.0.tgz
     version: 0.1.0
-generated: "2024-10-02T02:04:15.36818246Z"
+  rathena:
+  - apiVersion: v2
+    appVersion: a687ddeb854de4c9207d21dfbaab7f6b83944165
+    created: "2024-10-23T02:19:41.007683162Z"
+    dependencies:
+    - name: common
+      repository: oci://tccr.io/truecharts
+      version: 25.0.1
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: oci://tccr.io/truecharts
+      version: 15.4.1
+    description: A Helm chart for Kubernetes
+    digest: 89a7e517c25b3e34959f4318e2c9f6ee52b74d0cbc5b3393a75bda0fb2938f55
+    name: rathena
+    type: application
+    urls:
+    - https://github.com/patricioperezv/helm-charts/releases/download/rathena-0.1.0/rathena-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-10-23T02:19:41.007693541Z"
