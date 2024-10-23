@@ -17,6 +17,24 @@ entries:
     version: 0.1.0
   rathena:
   - apiVersion: v2
+    appVersion: c313602b06f6c64fc22da13b2f72079aafbcf103
+    created: "2024-10-23T23:08:55.272955816Z"
+    dependencies:
+    - name: common
+      repository: oci://tccr.io/truecharts
+      version: 25.0.1
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: oci://tccr.io/truecharts
+      version: 15.4.1
+    description: Rathena deployment using TrueCharts common library
+    digest: abad0fda4794b96b297ce0ef1638e96eba99e75ed0b440103753c43d58c51bdb
+    name: rathena
+    type: application
+    urls:
+    - https://github.com/patricioperezv/helm-charts/releases/download/rathena-0.2.0/rathena-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
     appVersion: a687ddeb854de4c9207d21dfbaab7f6b83944165
     created: "2024-10-23T03:37:53.102102019Z"
     dependencies:
@@ -52,4 +70,4 @@ entries:
     urls:
     - https://github.com/patricioperezv/helm-charts/releases/download/rathena-0.1.0/rathena-0.1.0.tgz
     version: 0.1.0
-generated: "2024-10-23T03:37:53.102112618Z"
+generated: "2024-10-23T23:08:55.272974591Z"
