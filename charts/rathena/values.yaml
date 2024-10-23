@@ -1,7 +1,7 @@
 image:
   repository: ghcr.io/patricioperezv/rathena-server-pec/rathena
   pullPolicy: IfNotPresent
-  tag: a687ddeb854de4c9207d21dfbaab7f6b83944165@sha256:f2507e53bb2dae7c3ba932cf4e8c519470d9758d3a27736d4056f0337a2433f6
+  tag: c313602b06f6c64fc22da13b2f72079aafbcf103@sha256:b8a7034e6da2b7887bad4c46299ed9e1ce28aee17c4a5b681771167d5f0aa2c2
 
 TZ: America/Santiago
 
@@ -11,7 +11,7 @@ mariadb:
   rathenaImage:
     repository: ghcr.io/patricioperezv/rathena-server-pec/rathena
     pullPolicy: IfNotPresent
-    tag: a687ddeb854de4c9207d21dfbaab7f6b83944165@sha256:f2507e53bb2dae7c3ba932cf4e8c519470d9758d3a27736d4056f0337a2433f6
+    tag: c313602b06f6c64fc22da13b2f72079aafbcf103@sha256:b8a7034e6da2b7887bad4c46299ed9e1ce28aee17c4a5b681771167d5f0aa2c2
   persistence:
     data:
       retain: true
