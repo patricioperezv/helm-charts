@@ -24,6 +24,7 @@ mariadb:
       enabled: true
       type: secret
       objectName: rathena
+      expandObjectName: false
       items:
         - key: updateInterServerPasswordSql
           path: z999999-update-inter-server-password.sql
@@ -48,6 +49,7 @@ persistence:
     enabled: true
     type: secret
     objectName: rathena
+    expandObjectName: false
     items:
       - key: interConf
         path: inter_conf.txt
