@@ -15,6 +15,22 @@ entries:
     urls:
     - https://github.com/patricioperezv/helm-charts/releases/download/actual-budget-0.1.0/actual-budget-0.1.0.tgz
     version: 0.1.0
+  cheshirecat:
+  - apiVersion: v2
+    appVersion: 1.7.1
+    created: "2024-10-27T02:44:11.623891431Z"
+    dependencies:
+    - name: common
+      repository: oci://tccr.io/truecharts
+      version: 25.0.1
+    description: The Cheshire Cat is an open-source, hackable and production-ready
+      framework that allows developing AI agents on top of Large Language Models
+    digest: 69c945d522b3a21fb42fc296d241c1dd4088b2142be6bb0b6c4cecdb0ee359c8
+    name: cheshirecat
+    type: application
+    urls:
+    - https://github.com/patricioperezv/helm-charts/releases/download/cheshirecat-0.1.0/cheshirecat-0.1.0.tgz
+    version: 0.1.0
   rathena:
   - apiVersion: v2
     appVersion: c313602b06f6c64fc22da13b2f72079aafbcf103
@@ -70,4 +86,4 @@ entries:
     urls:
     - https://github.com/patricioperezv/helm-charts/releases/download/rathena-0.1.0/rathena-0.1.0.tgz
     version: 0.1.0
-generated: "2024-10-23T23:08:55.272974591Z"
+generated: "2024-10-27T02:44:11.623904876Z"
