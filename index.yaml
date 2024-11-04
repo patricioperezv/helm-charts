@@ -15,6 +15,21 @@ entries:
     urls:
     - https://github.com/patricioperezv/helm-charts/releases/download/actual-budget-0.1.0/actual-budget-0.1.0.tgz
     version: 0.1.0
+  actualrestapi:
+  - apiVersion: v2
+    appVersion: 0.14.0
+    created: "2024-11-04T23:59:47.37725135Z"
+    dependencies:
+    - name: common
+      repository: oci://tccr.io/truecharts
+      version: 25.1.5
+    description: Local rest api for actual budget
+    digest: ab7473bb5ccaacb245638bd0d145576fe0f18846361df27e4fae33c378ba8afe
+    name: actualrestapi
+    type: application
+    urls:
+    - https://github.com/patricioperezv/helm-charts/releases/download/actualrestapi-0.1.0/actualrestapi-0.1.0.tgz
+    version: 0.1.0
   cheshirecat:
   - apiVersion: v2
     appVersion: 1.7.1
@@ -86,4 +101,4 @@ entries:
     urls:
     - https://github.com/patricioperezv/helm-charts/releases/download/rathena-0.1.0/rathena-0.1.0.tgz
     version: 0.1.0
-generated: "2024-10-27T02:44:11.623904876Z"
+generated: "2024-11-04T23:59:47.377264244Z"
